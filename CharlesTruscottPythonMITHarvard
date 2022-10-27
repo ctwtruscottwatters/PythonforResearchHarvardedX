@@ -1,0 +1,204 @@
+declarative vs. imperative knowledge
+
+int, float, string, set, tuple, list, dictionary, boolean, class, object, method, function, function invocation, function return, expression, combination
+
++ - * / // % ** ( ) += -= *= /= //= %= **= != == and, or, not > >= < <= & | ^ ~ << >> &= |= ^= ~= <<= >>= . * ** [ ] [:] [::] [i][j][k] @ _ __ ; , : =
+
+def function(arguments):
+	body
+	return
+	
+abstraction, decomposition
+
+def main():
+	pass
+if __name__ == "__main__": main()
+
+assert, global, nonlocal, pass, del, id
+
+break, continue, is, is not, as, in, for _ in _, while
+
+try, except, finally, else, error as e, e.method
+
+type definitions in characters
+
+while(bool):
+	body
+	while (bool):
+		body
+for x in a:
+	for y in x:
+	
+for x in a:
+	for y in b:
+	
+for x in range(start, stop, step):
+	body
+	
+def recursive_function(recursive_arguments):
+	base cases
+	body
+	return
+	recursive call
+	
+iteration, recursion, base cases
+
+if (bool):
+	if (bool):
+		if (bool):
+		elif (bool):
+		elif (bool):
+		else:
+	elif (bool):
+	elif (bool):
+	else:
+elif (bool):
+elif (bool):
+else:
+
+match (object):
+
+	case x:
+		body
+	case y:
+		body
+	case z:
+		body
+
+branching, conditionals, control flow
+
+Algorithmic Complexity
+Thought Experiments
+Approximation, Sorting and Searching
+Object Orientation
+Program Definition / Specification, Function Definition / Specification, Class Definition / Specification, Drafting Documents, Requirements Analysis, System Theory
+Algorithms and Data Structures
+
+privileged characteristics
+prototype characteristics
+proxy characteristics
+
+imaginary cases
+imaginary scenarios
+thought experiment
+
+reduction
+reasoning
+logic
+argumentation
+
+demonstration
+derivativity
+dispensability
+
+identity, entity
+creating, preserving
+theory
+exemplary cases
+exceptional cases
+
+
+Algorithmic Complexity
+
+	- random access machine
+	
+	- step
+	
+	- time constraint
+	
+	- size of input arbitrarily large or small
+	
+	- dominant algebraic term of growth, input to running time ratio, input prescribed algebraic term
+	
+	- running time (actual / conceptual)
+	
+		- best case, worst case, average case
+		
+		- lower bound, upper bound
+		
+	- counting steps, operators, operations, branches, loops, conditionals, recursion, iteration, input size
+	
+	- O(n)
+	
+	- theta(n)
+	
+constant, linear, logarithmic, log-linear, polynomial, exponential, graphing algorithm time to infinity, counting dominant operation and size of input and taking dominant algebraic term
+
+
+Exhaustive Enumeration, Bisection Search, Newton-Raphson, Bubble Sort, Permutation Sort, Selection Sort, Merge Sort. Exhaustive Search, Branch and Bound, Greedy, Dynamic Programming, Recursive, Divide-and-Conquer, Randomized.
+
+Program Definition / Specification, Function Definition / Specification, Class Definition / Specification, Drafting Documents, Requirements Analysis, System Theory
+
+Standard Library
+
+string
+textwrap
+re
+difflib
+enum
+collections
+array
+heapq
+bisect
+queue
+struct
+contextlib
+pprint
+functools
+itertools
+operator
+time
+datetime
+calendar
+decimal
+fractions
+random
+math
+statistics
+numpy
+matplotlib
+pandas
+glob
+fnmatch
+pathlib
+shutil
+tempfile
+linecache
+zlib
+gzp
+bz2
+tarfile
+zipfile
+pickle
+shelve
+dbm
+sqlite3
+xml.etree.ElementTree
+csv
+hmac
+hashlib
+signal
+threading
+multiprocessing
+asyncio
+concurrent.futures
+gettext
+locale
+site
+sys
+os
+platform
+resource
+gc
+sysconfig
+scipy
+sklearn
+tensorflow
+
+Charles Thomas Wallace Truscott Watters
+127 Broken Head Rd, Suffolk Park, NSw 2481 Australia. ctwtruscottwatters@gmail.com
+Algorithm -> A set of definitions given and steps taken in order to solve a well-formulated problem
+Data Structure -> A way of organising and formatting data for processing 
+Data -> A fundamental and primitive unit of information for storing
+Certificate in Computer Science and Python from MIT
+Certificate in Python for Research from Harvard
